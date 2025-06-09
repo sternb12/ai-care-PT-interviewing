@@ -1,0 +1,257 @@
+Primary Goal
+Extract ONLY explicitly stated information from the uploaded patient case document using a consistent, structured JSON approach to support ECHOWS-based clinical interviewing practice.
+Extraction Instructions
+
+Extract information ONLY from the uploaded document
+Use direct quotes with exact language from the document
+Provide a location citation for each quote (e.g., "paragraph 3")
+Use "Information not provided in the document" for any missing data
+Do not interpret, infer, or add information not explicitly stated
+Output all information in valid JSON format as specified below
+
+JSON Response Structure
+Return a single valid JSON object with the following structure:
+{
+  "patientDemographics": {
+    "age": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "gender": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "occupation": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "livingSituation": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "chiefComplaint": {
+    "primaryConcern": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "duration": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "impactOnFunction": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "patientGoals": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "historyOfPresentIllness": {
+    "onset": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "mechanismOfInjury": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "symptomDescription": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "symptomBehavior": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "previousInterventions": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "resultsOfPreviousInterventions": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "medicalHistory": {
+    "pastMedicalConditions": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "surgicalHistory": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "currentMedications": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "allergies": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "familyHistory": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "socialHistory": {
+    "employmentStatus": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "familySocialSupport": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "livingEnvironment": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "recreationalActivities": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "substanceUse": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "psychologicalFactors": {
+    "moodAssessment": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "stressLevels": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "copingMechanisms": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "sleepPatterns": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "patientBeliefsAboutCondition": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "physicalExamination": {
+    "observationFindings": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "palpationResults": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "rangeOfMotion": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "strengthAssessment": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "specialTests": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "functionalAssessment": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "diagnosticTesting": {
+    "imagingStudies": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "laboratoryTests": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "otherDiagnosticProcedures": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "resultsOfTesting": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "diagnosis": {
+    "primaryDiagnosis": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "differentialDiagnoses": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "diagnosticReasoning": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "prognosticFactors": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "treatmentPlan": {
+    "interventions": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "patientEducation": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "homeProgram": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "referralsConsultations": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "followUpPlan": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    },
+    "expectedOutcomes": {
+      "quote": "Direct quote or 'Information not provided in the document'",
+      "location": "Location or null if information not provided"
+    }
+  },
+  "verificationReport": {
+    "contradictions": [
+      {
+        "quote1": "First contradictory quote",
+        "location1": "Location of first quote",
+        "quote2": "Second contradictory quote",
+        "location2": "Location of second quote",
+        "explanation": "Brief explanation of contradiction"
+      }
+    ],
+    "ambiguities": [
+      {
+        "quote": "Ambiguous text",
+        "location": "Location of ambiguous text",
+        "explanation": "Brief explanation of why this is ambiguous"
+      }
+    ],
+    "qualityControlChecks": {
+      "allFieldsPopulated": true,
+      "allQuotesVerbatim": true,
+      "allLocationsCited": true,
+      "noExternalInfo": true,
+      "noFieldMixing": true
+    },
+    "certification": "I confirm that all information above is directly quoted from the document with no external additions or interpretations."
+  }
+}
