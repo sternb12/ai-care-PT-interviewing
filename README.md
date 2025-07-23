@@ -127,8 +127,6 @@ AI CARE is designed for educational use. Contact the research team for guidance 
 - Ben D. Stern (`benjamin.stern@tufts.edu`)
 - Lydia Thurston
 
-**Letta**
-- Charles Packer
 
 > **Important**
 > 
