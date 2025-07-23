@@ -131,3 +131,9 @@ AI CARE is designed for educational use. Contact the research team for guidance 
 > **Important**
 > 
 > AI CARE is designed as an educational tool to enhance clinical training through supplemental practice opportunities. It is not intended to replace supervised clinical instruction, faculty mentorship, or standardized patient interactions. Users should critically evaluate all AI-generated content, as these systems may produce inaccurate or misleading information that requires verification.
+
+## Citation
+
+If you use AI CARE in your research or educational programs, please cite our work appropriately.
+
+By using AI CARE, you acknowledge this is a research tool intended for educational purposes
