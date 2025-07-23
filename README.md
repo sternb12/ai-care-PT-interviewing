@@ -134,6 +134,6 @@ AI CARE is designed for educational use. Contact the research team for guidance 
 
 ## Citation
 
-If you use AI CARE in your research or educational programs, please cite our work appropriately.
+If you use AI CARE in your research or educational programs, please cite our work appropriately
 
 By using AI CARE, you acknowledge this is a research tool intended for educational purposes
