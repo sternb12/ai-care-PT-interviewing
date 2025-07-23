@@ -130,6 +130,6 @@ AI CARE is designed for educational use. Contact the research team for guidance 
 **Letta**
 - Charles Packer
 
-> **Warning**
+> **Important**
 > 
-> AI CARE is intended for educational purposes and skill practice. It should supplement, not replace, supervised clinical training and human mentorship in physical therapy education.
+> AI CARE is designed as an educational tool to enhance clinical training through supplemental practice opportunities. It is not intended to replace supervised clinical instruction, faculty mentorship, or standardized patient interactions. Users should critically evaluate all AI-generated content, as these systems may produce inaccurate or misleading information that requires verification.
