@@ -1,3 +1,5 @@
+![AI CARE Header](./head_img.png)
+
 # AICARE: AI-powered Case-based Approach for Real-world Experience --> The Patient Interview
 This is an LLM-powered case-based approach that allows physical therapy students to practice their patient interview skills
 
