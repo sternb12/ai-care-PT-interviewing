@@ -1,5 +1,5 @@
 # AICARE: AI-powered Case-based Approach for Real-world Experience --> The Patient Interview
-LLM-powered case-based approach for real-world experiences for PT student interview skills practice
+This is an LLM-powered case-based approach that allows physical therapy students to practice their patient interview skills
 
 In addition or as an alternative to the instructions below, you may also begin by examining the AICARE Instructions.pdf
 
