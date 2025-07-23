@@ -109,7 +109,7 @@ The Patient Case Extraction prompt processes clinical documents into structured 
 
 **"How do I customize patient behavior?"**
 
-You can modify patient personality traits in the Patient Interview prompt. Examples include making patients anxious, stubborn, talkative, or reserved by editing the highlighted personality section. Other modifications in the personality secion could include having the patient present with an active child, apprehensive caregiver or even speaking English as a second language. Use your imagination!
+You can modify patient personality traits in the Patient Interview prompt (see AICARE Instructions.pdf). Examples include making patients anxious, stubborn, talkative, or reserved by editing the highlighted personality section. Other modifications in the personality secion could include having the patient present with an active child, apprehensive caregiver or even speaking English as a second language. Use your imagination!
 
 **"Can I use my own patient cases?"**
 
